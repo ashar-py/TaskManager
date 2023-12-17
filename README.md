@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# TaskManager
+
+This is a very basic Task Manager app made using React which performs basic CRUD operations.
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
