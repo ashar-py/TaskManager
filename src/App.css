@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.field {
+  padding: 0.7rem;
+  margin: 10px 0 0 5px;
+  align-items: center;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.task-item:hover {
+  background-color: #eee;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.checkbox input {
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: none;
+  animation: strikethrough 0.5s ease-in-out forwards;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 1rem;
+}
+
+.empty-state h1 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.empty-state button {
+  margin-top: 1rem;
+}
